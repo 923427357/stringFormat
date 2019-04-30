@@ -1,0 +1,35 @@
+[setting_safety_center_history]
+    en = History
+    de = Geschichte
+    es = Historia
+    fr = Histoire
+    it = Storia
+    ja = 履歴
+    ko = 이력
+    pt = História
+    ru = История
+    tr = Geçmiş
+    vi = Lịch sử
+    zh-CN = 历史
+    zh-HK = 歷史
+    zh-Hans = 历史
+    zh-Hant = 歷史
+    zh-TW = 歷史
+
+[device_manage_status_on]
+    en = ON
+    de = Anschalten
+    es = Abrir
+    fr = Ouvrir
+    it = Apri
+    ja = 有効
+    ko = 켜기
+    pt = Abrir
+    ru = Вкл
+    tr = Başlatın
+    vi = Bật
+    zh-CN = 开启
+    zh-HK = 開啟
+    zh-Hans = 开启
+    zh-Hant = 開啟
+    zh-TW = 開啟

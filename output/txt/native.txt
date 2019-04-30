@@ -1,0 +1,29 @@
+[setting_safety_center_history]
+	zh-cn = 历史
+	en = History
+	de = Geschichte
+	es = Geschichte
+	fr = Geschichte
+	it = Geschichte
+	ja = Geschichte
+	ko = Geschichte
+	pt = Geschichte
+	ru = Geschichte
+	tr = Geschichte
+	vi = Geschichte
+	tw = Geschichte
+
+[device_manage_status_on]
+	zh-cn = 开启
+	en = ON
+	de = Anschalten
+	es = Anschalten
+	fr = Anschalten
+	it = Anschalten
+	ja = Anschalten
+	ko = Anschalten
+	pt = Anschalten
+	ru = Anschalten
+	tr = Anschalten
+	vi = Anschalten
+	tw = Anschalten

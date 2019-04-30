@@ -1,0 +1,20 @@
+{
+  "name": "stringformat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:native:excel": "node excel.native.js",
+    "build:web:excel": "node excel.web.js",
+    "build:native:txt": "node txt.native.js",
+    "build:web:txt": "node txt.web.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-xlsx": "^0.14.1",
+    "react": "^16.8.6"
+  }
+}

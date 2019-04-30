@@ -1,0 +1,52 @@
+
+[zh-cn]
+setting_safety_center_history: '历史',
+device_manage_status_on: '开启',
+
+[en]
+setting_safety_center_history: 'History',
+device_manage_status_on: 'ON',
+
+[de]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[es]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[fr]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[it]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[ja]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[ko]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[pt]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[ru]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[tr]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[vi]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
+
+[tw]
+setting_safety_center_history: 'Geschichte',
+device_manage_status_on: 'Anschalten',
