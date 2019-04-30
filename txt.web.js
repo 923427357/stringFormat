@@ -11,13 +11,21 @@ function toWriteExcelofWeb () {  //txt(web) to excel
         arr = arr.filter(str => str.trim());
         let lang;
         let arrList = arr.map(str => {
-            if (defaultFormatLangs[str]) {
-                lang = defaultFormatLangs[str];
+            let putStr = str.replace(/\s/g, ''); //去除所有空格
+            let ke
+            if (defaultFormatLangs[putStr]) {
+                lang = defaultFormatLangs[putStr];
                 jsonData[lang] = {};
             } else {
                 let strArr = str.split(':');
+                let index = str.indexOf(':');
+                // let key = str.slice(0, index)
                 let key = strTrim(strArr[0]);
-                let text = strTrim(strArr[1]).split('\',')[0].split('\'')[1];
+                let text = strTrim(str.slice(index+1));
+                // let text = strTrim(str.slice(index+1)).split('\',')[0].split('\'')[1];
+                let textLastIndex = text.lastIndexOf('\',');
+                let textIndex = text.indexOf('\'');
+                text = text.slice(textIndex+1, textLastIndex); //value取值优化
                 jsonData[lang][key] = text;
             }
         })

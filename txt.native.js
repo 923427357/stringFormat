@@ -19,6 +19,7 @@ function toWriteExcelOfNative () {  //txt(native) to excel
                 let strArr = str.split('=');
                 let lang = strTrim(strArr[0]);
                 let text = strTrim(strArr[1]);
+                if (lang == 'es-ES') return; //过滤lang
                 jsonData[key][lang] = text;
             }
         })
